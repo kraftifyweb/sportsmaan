@@ -1,0 +1,14 @@
+.navb{
+    background-color: #94c5f6;
+    padding: 20px;
+   
+}
+ol{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-around;
+}
+
+li>a{
+    text-decoration: none;
+}

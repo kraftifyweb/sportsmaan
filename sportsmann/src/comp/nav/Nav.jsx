@@ -1,17 +1,17 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
+//import Navbar from 'react-bootstrap/Navbar';
+import './nav.css';
 
 function Nav(){
     return(
-        <div>
-            <Navbar expand="lg" className="bg-dark text-white"> 
+        <div className='navb'>
+        
                 <ol>
-                <li>Home</li>
-                <li>News</li>
-                <li>Events</li>
-                <li>Contact</li>
+                <li><a href='/'>Home Page</a></li>
+                <li><a href='/news'>News</a></li>
+                <li><a href='/gallery'>Gallery</a></li>
+                <li><a href='/contact'>Contact</a></li>
             </ol>
-            </Navbar>
         </div>
     );
 }
