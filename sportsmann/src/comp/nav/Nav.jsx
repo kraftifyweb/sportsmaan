@@ -5,7 +5,7 @@ import './nav.css';
 function Nav(){
     return(
         <div className='navb'>
-            <navbar className="p-30 navbar navbar-expand-lg bg-warning">
+            <navbar className="navbar navbar-expand-lg bg-warning">
                 <ol >
                 <li><a href='/'>Home Page</a></li>
                 <li><a href='/news'>News</a></li>

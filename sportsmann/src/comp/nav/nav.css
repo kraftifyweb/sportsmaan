@@ -12,6 +12,5 @@ ol{
 li>a{
     
     text-decoration: none;
-    padding: 30px; /* Applies 10px padding to top, right, bottom, and left */
-  display: inline-block;
+    padding: 50px; /* Applies 10px padding to top, right, bottom, and left */
 }
