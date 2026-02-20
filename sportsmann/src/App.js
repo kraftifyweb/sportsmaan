@@ -1,10 +1,15 @@
 import './App.css';
+import Header from './comp/header/Header.jsx';
+import Top from './comp/top/Top.jsx';
+import Nav from './comp/nav/Nav.jsx';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
-    <div className="App">
-      hi how are you
-      i am doing fine
+    <div>
+      <Top />
+      <Header />
+      <Nav />
     </div>
   );
 }
