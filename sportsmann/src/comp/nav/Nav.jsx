@@ -9,8 +9,12 @@ function Nav(){
                 <ol>
                 <li><a href='/'>Home Page</a></li>
                 <li><a href='/news'>News</a></li>
+                <li><a href='/events'>Events</a></li>   
+                <li><a href='/teams'>Teams</a></li>
                 <li><a href='/gallery'>Gallery</a></li>
                 <li><a href='/contact'>Contact</a></li>
+                <li><a href='/about'>About</a></li>
+
             </ol>
         </div>
     );
