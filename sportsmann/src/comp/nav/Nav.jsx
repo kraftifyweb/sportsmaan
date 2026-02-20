@@ -1,12 +1,12 @@
 import React from 'react';
-//import Navbar from 'react-bootstrap/Navbar';
+//import navbar from 'react-bootstrap/Navbar';
 import './nav.css';
 
 function Nav(){
     return(
         <div className='navb'>
-        
-                <ol>
+            <navbar className="p-30 navbar navbar-expand-lg bg-warning">
+                <ol >
                 <li><a href='/'>Home Page</a></li>
                 <li><a href='/news'>News</a></li>
                 <li><a href='/events'>Events</a></li>   
@@ -15,7 +15,8 @@ function Nav(){
                 <li><a href='/contact'>Contact</a></li>
                 <li><a href='/about'>About</a></li>
 
-            </ol>
+            </ol> 
+            </navbar>
         </div>
     );
 }

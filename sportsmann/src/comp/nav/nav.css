@@ -1,5 +1,5 @@
 .navb{
-    background-color: #94c5f6;
+    //background-color: #94c5f6;
     padding: 20px;
    
 }
@@ -10,5 +10,8 @@ ol{
 }
 
 li>a{
+    
     text-decoration: none;
+    padding: 30px; /* Applies 10px padding to top, right, bottom, and left */
+  display: inline-block;
 }
