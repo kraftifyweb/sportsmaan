@@ -1,11 +1,11 @@
 import React from 'react';
-//import navbar from 'react-bootstrap/Navbar';
+import Navbar from 'react-bootstrap/Navbar';
 import './nav.css';
 
 function Nav(){
     return(
         <div className='navb'>
-            <navbar className="navbar navbar-expand-lg bg-warning">
+            <Navbar className="navbar navbar-expand-lg bg-warning">
                 <ol >
                 <li><a href='/'>Home Page</a></li>
                 <li><a href='/news'>News</a></li>
@@ -14,9 +14,8 @@ function Nav(){
                 <li><a href='/gallery'>Gallery</a></li>
                 <li><a href='/contact'>Contact</a></li>
                 <li><a href='/about'>About</a></li>
-
             </ol> 
-            </navbar>
+            </Navbar>
         </div>
     );
 }
